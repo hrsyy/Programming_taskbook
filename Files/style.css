@@ -1,0 +1,128 @@
+.run {
+		  src:"off.gif";
+			width:9;
+		  height:9; 
+		 }
+
+dl {
+	  text-indent:2 em;
+	 }
+		 	
+body {
+      background-attachment:fixed;
+		 }
+
+.styletable{
+            border-style:solid;
+						border-width:thin;
+						width:90%;
+					 }	 		 
+
+.styleit {
+				  font-style:italic;
+          font-size:13pt;
+   			  font-weight:bold;
+				 }	
+		 
+.bignum {
+         font-size:15pt;
+         font-style:normal;
+				 font-variant:normal;
+				 font-weight:normal;
+				 letter-spacing: 0.15em; 
+				} 
+
+A:link {
+        text-decoration:none; 
+	      color:#000000; 
+       }
+
+A:visited {
+           text-decoration:none; 
+           color:#000000; 
+      	  }
+
+A:hover {
+         text-decoration:none; 
+      	 color:fuchsia; 
+				}
+
+.heed {
+			 font-size:22px;
+			 color:red;
+			}										
+				
+.date {
+			 letter-spacing:0.1 em; 
+			 font-style:italic;
+			 font-weight:bold;
+       font-variant:normal;			  
+			 font-size:30px;
+			 color:blue;
+			}
+			
+.spiski {
+  			 font-style:italic;
+			 	 font-weight:bold;
+       	 font-variant:normal;			  
+			 	 font-size:17px;
+			 	 color:blue;
+				}							
+
+#usesoft {
+				  text-indent:4 em;				  
+				 }
+
+#email {
+			  text-align:center;			  
+			 }
+
+#blag {
+			 font-size:16px;			 
+			}
+								
+div {
+     font-style:normal;
+		 font-variant:normal;
+		 font-weight:normal;
+     text-align:justify; 
+    }
+
+.activ {
+			  font-weight:bold;
+ 	  	  font-size:17px;			 
+			 }
+
+.typespisoc {
+             text-align:left;
+						 font-size:20px;
+						}			 		
+		
+.nad {
+      font-style:normal;
+	    font-variant:normal;
+ 	  	font-weight:normal;
+      text-decoration:overline;
+     }
+
+.pod {
+      font-style:normal;
+	    font-variant:normal;
+ 	  	font-weight:normal;
+      text-decoration:underline;
+     }		 
+
+.pere {
+       font-style:normal;
+	     font-variant:normal;
+ 	     font-weight:normal;
+       text-decoration:line-through;
+      }
+		 
+h2 {
+    text-align:center; 
+   }
+
+img {
+     border:0; 
+    }
