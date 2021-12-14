@@ -1,0 +1,58 @@
+:root
+{
+    --background: #F0F1FF;
+    --header: #8A92DA;
+    --shadow: #BCC0E5;
+    --menu-bar: black;
+    --menu-bar-bg: #CCD1FF;
+    --aside-bg: #CCD1FF;
+    --tag-tx: black;
+    --txt: black;
+}
+
+
+body
+{
+    background: var(--background);
+    color: var(--txt);
+}
+
+
+header
+{
+    background: var(--header);
+    box-shadow: 0 1px 10px var(--header-shadow);
+}
+
+.menubar
+{
+    color: var(--menu-bar);
+    border-radius: 25px;
+}
+
+.menubar-button
+{
+    background: var(--header);
+    color: var(--txt);
+    border-radius: 5px;
+}
+
+
+.menubar-button:hover
+{
+    background: var(--menu-bar-bg);
+    color: var(--menu-bar);
+    border-radius: 5px;
+}
+
+
+h2
+{
+    color: var(--tag-tx);
+}
+
+
+article
+{
+    box-shadow: 2px 2px 5px var(--menu-bar);
+}
