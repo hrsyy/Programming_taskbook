@@ -20,5 +20,30 @@
             </div>
         </header>
     </div>
+    
+    <div class="header-tablink">
+        <header>
+            <button class="tablink" onclick="openPage('allTaskNumbers', this, 'var(--menu-bar-bg)')">Полностью</button>
+            <button class="tablink" onclick="openPage('onThemes', this, 'var(--menu-bar-bg)')">По темам</button>
+            <button class="tablink" onclick="openPage('summerPractice', this, 'var(--menu-bar-bg)')">Летняя практика</button>
+        </header>
+    </div>
+
+    <div id = "allTaskNumbers" class="tabcontent">
+        <h3>Полностью</h3>
+        <p>Таблица со всеми номерами</p>
+    </div>
+
+    <div id = "onThemes" class="tabcontent">
+        <h3>По темам</h3>
+        <p>Разбитые по темам номера</p>
+    </div>
+
+    <div id = "summerPractice" class="tabcontent">
+        <h3>Летняя практика</h3>
+        <p>Таблица с номерами летней практики</p>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

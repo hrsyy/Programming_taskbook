@@ -75,3 +75,23 @@ a:hover
     text-decoration:none; 
     color:#8A92DA; 
 }
+
+
+/* Style tab links */
+.tablink {
+    background: var(--header);
+    color: var(--txt);
+  }
+
+  .tablink:hover {
+    background-color: var(--menu-bar-bg);
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: var(--txt);
+  }
+  
+  #allTaskNumbers {background-color: var(--menu-bar-bg);}
+  #onThemes {background-color: var(--menu-bar-bg);}
+  #summerPractice {background-color: var(--menu-bar-bg);}
