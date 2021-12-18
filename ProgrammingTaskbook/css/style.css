@@ -73,7 +73,7 @@ a:visited
 a:hover 
 {
     text-decoration:none; 
-    color:#8A92DA; 
+    color:   var(--shadow); 
 }
 
 
@@ -95,3 +95,22 @@ a:hover
   #allTaskNumbers {background-color: var(--menu-bar-bg);}
   #onThemes {background-color: var(--menu-bar-bg);}
   #summerPractice {background-color: var(--menu-bar-bg);}
+
+
+
+
+th, td:first-child {
+    background: var(--header);
+    color: var(--txt);
+}
+
+th, td {
+
+    border-color: var(--menu-bar-bg);
+}
+
+
+th, td:hover
+{
+    color: var(--txt);
+}
